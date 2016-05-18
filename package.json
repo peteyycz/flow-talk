@@ -1,0 +1,20 @@
+{
+  "name": "talkOnFlow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "talk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "babel-node": "babel-node",
+    "build": "babel --out-dir=./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-plugin-transform-flow-strip-types": "6.8.0",
+    "flow-bin": "0.25.0"
+  }
+}
